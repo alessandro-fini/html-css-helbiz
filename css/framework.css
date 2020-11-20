@@ -58,8 +58,21 @@
 .m-10 {
   margin: 10px;
 }
+
 .mr-10 {
   margin-right: 10px;
+}
+
+.mr-20{
+  margin-right: 20px;
+}
+
+.ml-10{
+  margin-left: 10px;
+}
+
+.mt-20{
+  margin-top: 20px;
 }
 
 .mtb-20{
@@ -68,6 +81,22 @@
 
 .mtb-50{
   margin: 50px 0;
+}
+
+.p-10{
+  padding: 10px;
+}
+
+.p-30{
+  padding: 30px;
+}
+
+.p-50{
+  padding: 50px;
+}
+
+.p-80{
+  padding: 80px;
 }
 
 /* framework colonne*/

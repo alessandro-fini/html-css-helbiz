@@ -165,7 +165,161 @@ ul.navbar-language :not(li:last-child) a {
   .mobility-text .center-position h2{
     font-size: 35px;
   }
-
 }
 /* /MOBILITY */
+
+/* APP */
+#app{
+  color: white;
+}
+
+#app p{
+  font-weight: bold;
+}
+
+#app a{
+  color: white;
+  font-weight: bold;
+}
+
+#app .phone{
+  height: 500px;
+  background-image: linear-gradient(#405569, #26313a);
+  position: relative;
+}
+
+#app .phone li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#app .phone .phone-img{
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url('../img/iphone-bg.2dae1bd.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#app .city{
+  height: 500px;
+  background-image: url('../img/city.7c8c928.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 992px){
+  #app .container{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #app .container{
+    width: 90%;
+  }
+
+  #app .phone{
+    margin-bottom: 50px;
+    width: 100%;
+  }
+}
+/* /APP */
+
+/* FAMILY */
+#family{
+  height: 400px;
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#family .family-box{
+  width: 40%;
+  height: 50%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.family-box .social{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.family-box .social h2{
+  font-size: 28px;
+}
+
+.family-box .social li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.family-box .social a{
+  color: black;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 992px){
+  .family-box .social h2{
+    font-size: 25px;
+  }
+
+  .family-box .social li{
+    padding: 8px;
+  }
+
+  .family-box .social a{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .family-box .social h2{
+    font-size: 18px;
+  }
+
+  .family-box .social li{
+    padding: 5px;
+  }
+
+  .family-box .social a{
+    font-size: 20px;
+  }
+}
+/* /FAMILY */
 /* /MAIN */
+
+/* FOOTER */
+footer{
+  height: 600px;
+  background-color: black;
+  color: white;
+}
+
+footer h4{
+  text-transform: uppercase;
+}
+
+footer li{
+  margin: 10px 0;
+}
+
+footer a{
+  color: grey;
+}
+
+footer .row{
+  border-bottom: 1px solid grey;
+}
+
+/* /FOOTER */
