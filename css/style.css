@@ -78,14 +78,11 @@ ul.navbar-language :not(li:last-child) a {
 
 /* MAIN */
 /* PRODOTTI */
-#prodotti .row{
-  margin: 50px 0;
-}
-
 #prodotti .bg-gray{
   width: 95%;
   background-color: #fafafa;
   padding: 40px;
+  margin: 0 2%;
 }
 
 #prodotti a{
@@ -112,4 +109,51 @@ ul.navbar-language :not(li:last-child) a {
   }
 }
 /* /PRODOTTI */
+
+/* MOBILITY */
+#mobility .container{
+  height: 500px;
+  background-image: url('../img/scooter.f0a0397.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#mobility .row,
+#mobility [class*=col-]{
+  height: 100%;
+}
+
+#mobility .mobility-text{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#mobility .center-position{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.mobility-text .center-position h2{
+  font-size: 40px;
+}
+
+.mobility-text .center-position p{
+  font-weight: bold;
+}
+
+.mobility-text .center-position a{
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  #mobility .container{
+    background-position: right;
+  }
+}
+/* /MOBILITY */
 /* /MAIN */

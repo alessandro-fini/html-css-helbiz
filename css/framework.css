@@ -66,6 +66,10 @@
   margin: 20px 0;
 }
 
+.mtb-50{
+  margin: 50px 0;
+}
+
 /* framework colonne*/
 .col-lg-1 {
   width: calc(100% / 12 * 1);
@@ -283,7 +287,7 @@
   margin-left: calc(100% / 12 * 12);
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:992px){
   .col-md-offset-1 {
     margin-left: calc(100% / 12 * 1);
   }
