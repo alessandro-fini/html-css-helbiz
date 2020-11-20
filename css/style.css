@@ -95,5 +95,21 @@ ul.navbar-language :not(li:last-child) a {
 #prodotti img{
   height: 400px;
 }
+
+@media screen  and (max-width:992px){
+  #prodotti img{
+    height: 250px;
+  }
+}
+
+@media screen and (max-width:768px){
+  #prodotti .bg-gray{
+    margin-bottom: 40px;
+  }
+
+  #prodotti img{
+    height: 180px;
+  }
+}
 /* /PRODOTTI */
 /* /MAIN */
