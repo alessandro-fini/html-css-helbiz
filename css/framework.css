@@ -62,6 +62,10 @@
   margin-right: 10px;
 }
 
+.mtb-20{
+  margin: 20px 0;
+}
+
 /* framework colonne*/
 .col-lg-1 {
   width: calc(100% / 12 * 1);
