@@ -150,10 +150,22 @@ ul.navbar-language :not(li:last-child) a {
   font-weight: bold;
 }
 
+@media screen and (max-width: 992px){
+  #mobility .container{
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #mobility .container{
+    width: 90%;
     background-position: right;
   }
+
+  .mobility-text .center-position h2{
+    font-size: 35px;
+  }
+
 }
 /* /MOBILITY */
 /* /MAIN */
