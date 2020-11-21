@@ -110,6 +110,58 @@ ul.navbar-language :not(li:last-child) a {
 }
 /* /PRODOTTI */
 
+/* STEPS */
+#steps{
+  background-image: url('../img/index-banner.1f6fd0a.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#steps img{
+  width: 80%;
+  margin: 100px 0;
+}
+
+#steps h2{
+  margin-top: 600px;
+  font-size: 30px;
+}
+
+#steps h4{
+  margin-top: 625px;
+}
+
+@media screen and (max-width: 992px) {
+  #steps img{
+    width: 50%;
+  }
+
+  #steps h2{
+    margin-top: 300px;
+    font-size: 25px;
+  }
+
+  #steps h4{
+    margin-top: 320px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  #steps h2{
+    margin-top: 250px;
+  }
+
+  #steps h4{
+    margin-top: 2px;
+  }
+
+  #steps p{
+    margin: 10px 0 80px;
+  }
+}
+/* /STEPS */
+
 /* MOBILITY */
 #mobility .container{
   height: 500px;
