@@ -301,7 +301,6 @@ ul.navbar-language :not(li:last-child) a {
 
 /* FOOTER */
 footer{
-  height: 600px;
   background-color: black;
   color: white;
 }
@@ -318,8 +317,38 @@ footer a{
   color: grey;
 }
 
-footer .row{
-  border-bottom: 1px solid grey;
+.border{
+  border-bottom: 1px solid #1c1c1c;
 }
 
+.row .inline li{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.inline li a{
+  color: white;
+  font-size: 20px;
+}
+
+.terms a{
+  color: white;
+}
+
+.terms h5{
+  margin-top: 15px;
+}
+
+.row .inline img{
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  [class*="col-"]{
+    padding: 20px 0;
+    text-align: center;
+  }
+
+}
 /* /FOOTER */
